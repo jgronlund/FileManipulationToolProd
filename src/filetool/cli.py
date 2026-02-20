@@ -3,7 +3,6 @@ __author__ = "Jacob Gronlund"
 """"
 CLI script for filetool
 """
-
 import argparse
 import logging
 
@@ -16,7 +15,7 @@ from filetool.file_operations import (
 
 LOGGER = logging.getLogger(__name__)
 
-def build_parser() -> argparse.Namespace:
+def build_parser() -> argparse.ArgumentParser:
     
     # Argument parsing
     parser = argparse.ArgumentParser(

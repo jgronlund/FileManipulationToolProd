@@ -5,7 +5,6 @@ Unit tests for file_operations.py
 """
 
 import shutil
-import sys
 import os
 from unittest import TestCase
 from pathlib import Path

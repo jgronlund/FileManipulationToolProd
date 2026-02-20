@@ -9,7 +9,6 @@ Script contains all file operation functions including:
 """
 
 import os
-import sys
 import tempfile
 import logging
 from pathlib import Path

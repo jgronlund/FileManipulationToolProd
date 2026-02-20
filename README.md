@@ -17,13 +17,13 @@ Python 3.9+
 -----------------------------------------------------------------------------------
 
 Instructions on installing filetool:
-1) Download filetool-deb.zip and install_filetool.sh onto your linux computer
+1) Download filetool-deb.zip onto your linux computer
 
 2) Now Install the debian
 
     Open up the Terminal and change directories to be in the same directory as the files you just downloaded and run the following commands:
 
-    Unzip filetool-deb.zip
+    Unzip the file filetool-deb.zip (only necessary if file is zipped)
         
         unzip filetool-deb.zip
     
@@ -35,8 +35,10 @@ Instructions on installing filetool:
         sudo apt -f install -y
     
     Option 2 - Install using the provided Bash Script (this would be useful for bigger projects)
-        
-    Make the install file executable
+
+   Download install_filetool.sh from repository 
+
+   Make the install file executable
         
         chmod +x install_filetool.sh
 
@@ -44,7 +46,7 @@ Instructions on installing filetool:
         
         ./install_filetool.sh filetool_0.1.0-1_all.deb
 
-3) Now the filetool should be installed. To test, type in the terminal:
+4) Now the filetool should be installed. To test, type in the terminal:
     
     filetool --help
     
@@ -83,5 +85,5 @@ Testing:
 -----------------------------------------------------------------------------------
 Instructions for Building:
 
-Github Actions is set to build a new debian every push to main. Activate the github action to build a new debian.
+Github Actions is set to build a new debian every push to main. Activate the github action to build a new debian. Otherwise download the latest debian in the repository.
 

@@ -80,5 +80,8 @@ Testing:
 
     To run tests please see DEVELOPER.md
 
-    
+-----------------------------------------------------------------------------------
+Instructions for Building:
+
+Github Actions is set to build a new debian every push to main. Activate the github action to build a new debian.
 

@@ -24,42 +24,53 @@ Instructions on installing filetool:
     Open up the Terminal and change directories to be in the same directory as the files you just downloaded and run the following commands:
 
     Unzip filetool-deb.zip
-    - unzip filetool-deb.zip
+        
+        unzip filetool-deb.zip
     
     Installing the debian
+    
     Option 1 - Install from .deb
-        - sudo dpkg -i filetool_0.1.0-1_all.deb
-        - sudo apt -f install -y
+        
+        sudo dpkg -i filetool_0.1.0-1_all.deb
+        sudo apt -f install -y
     
     Option 2 - Install using the provided Bash Script (this would be useful for bigger projects)
-        
         Make the install file executable
-        - chmod +x install_filetool.sh
+        
+        chmod +x install_filetool.sh
 
         Run the installer adding in the correct filepath to the .deb file
-        - ./install_filetool.sh filetool_0.1.0-1_all.deb
+        
+        ./install_filetool.sh filetool_0.1.0-1_all.deb
 
 3) Now the filetool should be installed. To test, type in the terminal:
-    - filetool --help
+    
+    filetool --help
+    
     You should see a help menu pop-up with instructions on how to use the application
 
 -----------------------------------------------------------------------------------
 
 For Instructions on using the filetool application please use the --help option. Below are brief instructions:
 1) Show Help
-    - filetool --help
+    
+    filetool --help
 
 2) Create a File with content
-    - filetool create example.txt --content "Hello World"
+    
+    filetool create example.txt --content "Hello World"
 
 3) Copy a File
-    - filetool copy source.txt destination.txt
+    
+    filetool copy source.txt destination.txt
 
 4) Combine Two Files
-    - filetool combine a.txt b.txt combined.txt
+    
+    filetool combine a.txt b.txt combined.txt
 
 5) Delete a File
-    - filetool delete file.txt
+    
+    filetool delete file.txt
 
 -----------------------------------------------------------------------------------
 

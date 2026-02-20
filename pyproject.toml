@@ -9,6 +9,11 @@ dependencies = []
 [project.scripts]
 filetool = "filetool.cli:main"
 
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["E402"]
+"src/*" = ["E402"]
+"tests/*" = ["E402"]
+
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"

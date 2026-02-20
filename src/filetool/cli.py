@@ -3,7 +3,6 @@ __author__ = "Jacob Gronlund"
 """"
 CLI script for filetool
 """
-
 import argparse
 import logging
 

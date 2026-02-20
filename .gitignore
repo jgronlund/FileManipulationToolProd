@@ -1,0 +1,22 @@
+# virtualenv
+venv/
+
+# Python templates/compilations
+__pycache__/
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+dist/
+sdist/
+.DS_Store
+
+# custom output files, logs
+*.log
+*.env
+*cache
+*.cov

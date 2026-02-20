@@ -1,0 +1,13 @@
+Source: filetool
+Section: utils
+Priority: optional
+Maintainer: Jacob Gronlund <Jacob.Gronlund345@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools
+Standards-Version: 4.6.2
+Rules-Requires-Root: no
+
+Package: filetool
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: A file manipulation CLI tool
+ Simple CLI tool to create, copy, combine and delete files.

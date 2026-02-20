@@ -1,0 +1,14 @@
+[project]
+name = "filetool"
+version = "0.1.0"
+description = "A file manipulation CLI tool"
+authors = [{ name = "Jacob Gronlund", email = "Jacob.Gronlund345@gmail.com" }]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+filetool = "filetool.cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

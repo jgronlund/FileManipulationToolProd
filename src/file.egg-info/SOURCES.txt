@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/file.egg-info/PKG-INFO
+src/file.egg-info/SOURCES.txt
+src/file.egg-info/dependency_links.txt
+src/file.egg-info/entry_points.txt
+src/file.egg-info/top_level.txt
+src/filetool/__init__.py
+src/filetool/cli.py
+src/filetool/exceptions.py
+src/filetool/file_operations.py

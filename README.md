@@ -32,6 +32,7 @@ Instructions on installing filetool:
         - sudo apt -f install -y
     
     Option 2 - Install using the provided Bash Script (this would be useful for bigger projects)
+        
         Make the install file executable
         - chmod +x install_filetool.sh
 
